@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FoxPhotoApp</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Fox Photo App</h1>
+    <main>
+      <section>
+        <h2>Fox Photos</h2>
+        <p>
+          Click here to view more
+          <a href="morefoxphotos.html" target="_blank">fox photos</a>
+        </p>
+        <a href="morefoxphotos.html"
+          ><img
+            src="https://images.unsplash.com/photo-1621170653126-1a5d0d8da731?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=905&q=80"
+            alt="Photo of a fox cub with an incredible expression."
+        /></a>
+      </section>
+      <section>
+        <h2>Fox Lists</h2>
+        <h3>Things fox love:</h3>
+        <ul>
+          <li>solitude</li>
+          <li>deception</li>
+          <li>peanuts</li>
+        </ul>
+        <figure>
+          <img
+            src="https://images.unsplash.com/photo-1546545584-c03ac781caaf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGVhbnV0c3xlbnwwfDJ8MHx8&auto=format&fit=crop&w=500&q=60"
+            alt="Photo of a pile of peanuts."
+          />
+          <figcaption>Fox <em>love</em> peanuts.</figcaption>
+        </figure>
+        <h3>Top 3 things fox hate:</h3>
+        <ol>
+          <li>flashing lights</li>
+          <li>loud noises</li>
+          <li>eagles</li>
+        </ol>
+        <figure>
+          <img
+            src="https://images.unsplash.com/flagged/photo-1551337192-c7893e023548?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZWFnbGV8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+            alt="Photo of an eagle face."
+          />
+          <figcaption>Fox can be <strong>hunt</strong> by eagles.</figcaption>
+        </figure>
+      </section>
+      <section>
+        <h2>Fox Form</h2>
+        <form action="#data-center">
+          <fieldset>
+            <legend>What color is your fox?</legend>
+            <input
+              id="light-yellow"
+              type="radio"
+              value="light-yellow"
+              name="color-fox"
+              checked
+            />
+            <label for="light-yellow">Light yellow</label>
+            <input id="auburn-red" type="radio" value="" name="color-fox" />
+            <label for="auburn-red">Auburn red</label>
+            <input id="frosted-black" type="radio" value="" name="color-fox" />
+            <label for="frosted-black">Frosted black</label>
+          </fieldset>
+          <fieldset>
+            <legend>What is your fox personality?</legend>
+            <input
+              id="generous"
+              type="checkbox"
+              name="personality-fox"
+              value="generous"
+              checked
+            /><label for="generous">Generous</label>
+            <input
+              id="procrastinating"
+              type="checkbox"
+              name="personality-fox"
+              value="procrastinating"
+            /><label for="procrastinating">Procrastinating</label
+            ><input
+              id="flirtarious"
+              type="checkbox"
+              name="personality-fox"
+              value="flirtarious"
+            /><label for="flirtarious">Flirtarious</label>
+          </fieldset>
+          <input type="text" placeholder="fox photo URL" /><button>
+            Submit
+          </button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>No Copyright - <a href="morefoxphotos.html">moreFoxPhoto.org</a></p>
+    </footer>
+  </body>
+</html>
